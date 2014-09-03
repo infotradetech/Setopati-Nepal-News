@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NpArtViewController">
+            <connections>
+                <outlet property="btn" destination="qvv-t2-2kq" id="SRL-iX-sEO"/>
+                <outlet property="ebtn" destination="aMA-0o-vXm" id="e0J-xl-K1u"/>
+                <outlet property="tbl1" destination="B3k-Ch-Ycq" id="xGg-HS-6UF"/>
+                <outlet property="tbl2" destination="dfW-xT-BPA" id="dvR-e5-U2E"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="dfW-xT-BPA">
+                    <rect key="frame" x="0.0" y="59" width="320" height="557"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexBackgroundColor" red="0.96864385190000002" green="0.082337545060000003" blue="0.01040034921" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="vb2-I1-Iss"/>
+                        <outlet property="delegate" destination="-1" id="gM2-yN-fYZ"/>
+                    </connections>
+                </tableView>
+                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="37g-65-z4t">
+                    <rect key="frame" x="0.0" y="69" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.11246259879999999" green="0.4203708773" blue="0.60373485329999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="0.11246259879999999" green="0.4203708773" blue="0.60373485329999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="barTintColor" red="0.15285454000000001" green="0.57135081139999999" blue="0.82057158799999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <items>
+                        <navigationItem id="ja6-gp-2fC">
+                            <nil key="title"/>
+                            <barButtonItem key="leftBarButtonItem" title="Menu" id="qvv-t2-2kq">
+                                <color key="tintColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="btn:" destination="-1" id="gE8-Wp-Vx3"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem key="rightBarButtonItem" title="English" id="aMA-0o-vXm">
+                                <color key="tintColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="ebtn:" destination="-1" id="8D0-Bh-bag"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="कला" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k81-sm-33p">
+                    <rect key="frame" x="74" y="82" width="174" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="30" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="B3k-Ch-Ycq">
+                    <rect key="frame" x="-10" y="113" width="118" height="300"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.45200370070000001" green="0.64505012799999994" blue="0.89809869259999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="0.11246259879999999" green="0.4203708773" blue="0.60373485329999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="sectionIndexColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexBackgroundColor" red="0.11246259879999999" green="0.4203708773" blue="0.60373485329999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="sVO-Ir-RXp"/>
+                        <outlet property="delegate" destination="-1" id="9OY-gN-Cwk"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

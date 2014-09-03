@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NpPoliticsViewController">
+            <connections>
+                <outlet property="btn" destination="0Ka-Lf-25a" id="lNI-Q6-p8h"/>
+                <outlet property="ebtn" destination="M1O-8p-Vul" id="i8s-Kg-gMM"/>
+                <outlet property="tbl1" destination="UFk-GB-k0k" id="2V6-dk-fNj"/>
+                <outlet property="tbl2" destination="KmB-U1-EWj" id="ldG-SV-CB7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="KmB-U1-EWj">
+                    <rect key="frame" x="0.0" y="52" width="320" height="557"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexBackgroundColor" red="0.96864385190000002" green="0.082337545060000003" blue="0.01040034921" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="MX9-Iw-HgD"/>
+                        <outlet property="delegate" destination="-1" id="5QP-Xj-a1C"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="30" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="UFk-GB-k0k">
+                    <rect key="frame" x="-11" y="109" width="118" height="300"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.45200370070000001" green="0.64505012799999994" blue="0.89809869259999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="0.11246259879999999" green="0.4203708773" blue="0.60373485329999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="sectionIndexColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexBackgroundColor" red="0.11246259879999999" green="0.4203708773" blue="0.60373485329999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="sYQ-Xy-zGM"/>
+                        <outlet property="delegate" destination="-1" id="Ue2-jb-g8J"/>
+                    </connections>
+                </tableView>
+                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SgK-Az-hnk">
+                    <rect key="frame" x="0.0" y="65" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.11246259879999999" green="0.4203708773" blue="0.60373485329999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="0.11246259879999999" green="0.4203708773" blue="0.60373485329999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="barTintColor" red="0.15285454000000001" green="0.57135081139999999" blue="0.82057158799999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <items>
+                        <navigationItem id="xEp-2o-0yf">
+                            <nil key="title"/>
+                            <barButtonItem key="leftBarButtonItem" title="Menu" id="0Ka-Lf-25a">
+                                <color key="tintColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="btn:" destination="-1" id="y4g-fN-uwv"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem key="rightBarButtonItem" title="English" id="M1O-8p-Vul">
+                                <color key="tintColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="ebtn:" destination="-1" id="WdK-NL-wqa"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="राजनीति" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Z9-QE-XYr">
+                    <rect key="frame" x="74" y="78" width="174" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

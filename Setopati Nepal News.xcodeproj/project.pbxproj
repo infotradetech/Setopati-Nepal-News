@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B65E8FC219B45F7400163710 /* HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B65E8FBF19B45F7400163710 /* HUD.m */; };
+		B65E8FC619B47E4600163710 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B65E8FC519B47E4600163710 /* MBProgressHUD.m */; };
+		B65E8FCA19B48A1F00163710 /* NpPoliticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65E8FC819B48A1F00163710 /* NpPoliticsViewController.m */; };
+		B65E8FCB19B48A1F00163710 /* NpPoliticsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65E8FC919B48A1F00163710 /* NpPoliticsViewController.xib */; };
+		B65E8FCF19B491BA00163710 /* NpSpecialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65E8FCD19B491BA00163710 /* NpSpecialViewController.m */; };
+		B65E8FD019B491BA00163710 /* NpSpecialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65E8FCE19B491BA00163710 /* NpSpecialViewController.xib */; };
+		B65E8FD419B491E100163710 /* NpOpinionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65E8FD219B491E100163710 /* NpOpinionViewController.m */; };
+		B65E8FD519B491E100163710 /* NpOpinionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65E8FD319B491E100163710 /* NpOpinionViewController.xib */; };
+		B65E8FD919B491F900163710 /* NpBlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65E8FD719B491F900163710 /* NpBlogViewController.m */; };
+		B65E8FDA19B491F900163710 /* NpBlogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65E8FD819B491F900163710 /* NpBlogViewController.xib */; };
+		B65E8FDE19B4920B00163710 /* NpLiteratureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65E8FDC19B4920B00163710 /* NpLiteratureViewController.m */; };
+		B65E8FDF19B4920B00163710 /* NpLiteratureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65E8FDD19B4920B00163710 /* NpLiteratureViewController.xib */; };
+		B661FA6319B3110A00A418CB /* NpSocietyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B661FA6119B3110A00A418CB /* NpSocietyViewController.m */; };
+		B661FA6419B3110A00A418CB /* NpSocietyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B661FA6219B3110A00A418CB /* NpSocietyViewController.xib */; };
+		B661FA6B19B3113600A418CB /* NpBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B661FA6919B3113600A418CB /* NpBusinessViewController.m */; };
+		B661FA6C19B3113600A418CB /* NpBusinessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B661FA6A19B3113600A418CB /* NpBusinessViewController.xib */; };
+		B661FA7019B3114A00A418CB /* NpArtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B661FA6E19B3114A00A418CB /* NpArtViewController.m */; };
+		B661FA7119B3114A00A418CB /* NpArtViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B661FA6F19B3114A00A418CB /* NpArtViewController.xib */; };
+		B661FA7519B33BE000A418CB /* NpSortsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B661FA7319B33BE000A418CB /* NpSortsViewController.m */; };
+		B661FA7619B33BE000A418CB /* NpSortsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B661FA7419B33BE000A418CB /* NpSortsViewController.xib */; };
+		B661FA8B19B356BA00A418CB /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B661FA8A19B356BA00A418CB /* MenuViewController.m */; };
+		B661FA8F19B387F900A418CB /* EnPoliticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B661FA8D19B387F900A418CB /* EnPoliticsViewController.m */; };
+		B661FA9019B387F900A418CB /* EnPoliticsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B661FA8E19B387F900A418CB /* EnPoliticsViewController.xib */; };
+		B661FA9619B39DF800A418CB /* EnSocietyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B661FA9419B39DF800A418CB /* EnSocietyViewController.m */; };
+		B661FA9719B39DF800A418CB /* EnSocietyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B661FA9519B39DF800A418CB /* EnSocietyViewController.xib */; };
+		B661FA9B19B39E1600A418CB /* EnArtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B661FA9919B39E1600A418CB /* EnArtViewController.m */; };
+		B661FA9C19B39E1600A418CB /* EnArtViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B661FA9A19B39E1600A418CB /* EnArtViewController.xib */; };
+		B661FAA019B39E3200A418CB /* EnSportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B661FA9E19B39E3200A418CB /* EnSportsViewController.m */; };
+		B661FAA119B39E3200A418CB /* EnSportsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B661FA9F19B39E3200A418CB /* EnSportsViewController.xib */; };
+		B68537E919B5A212005DF29A /* EnSpecialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68537E719B5A212005DF29A /* EnSpecialViewController.m */; };
+		B68537EA19B5A212005DF29A /* EnSpecialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68537E819B5A212005DF29A /* EnSpecialViewController.xib */; };
+		B68537EE19B5A226005DF29A /* EnOpinionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68537EC19B5A225005DF29A /* EnOpinionViewController.m */; };
+		B68537EF19B5A226005DF29A /* EnOpinionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68537ED19B5A226005DF29A /* EnOpinionViewController.xib */; };
+		B68537F319B5A238005DF29A /* EnBlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68537F119B5A238005DF29A /* EnBlogViewController.m */; };
+		B68537F419B5A238005DF29A /* EnBlogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68537F219B5A238005DF29A /* EnBlogViewController.xib */; };
+		B68537F819B5A271005DF29A /* ENAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68537F619B5A271005DF29A /* ENAudioViewController.m */; };
+		B68537F919B5A271005DF29A /* ENAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68537F719B5A271005DF29A /* ENAudioViewController.xib */; };
+		B68537FD19B5A328005DF29A /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68537FB19B5A328005DF29A /* AboutUsViewController.m */; };
+		B68537FE19B5A328005DF29A /* AboutUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68537FC19B5A328005DF29A /* AboutUsViewController.xib */; };
+		B685380419B5F774005DF29A /* Setopati.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B685380319B5F774005DF29A /* Setopati.sqlite */; };
+		B685380819B62B27005DF29A /* EnBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B685380619B62B27005DF29A /* EnBusinessViewController.m */; };
+		B685380919B62B27005DF29A /* EnBusinessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B685380719B62B27005DF29A /* EnBusinessViewController.xib */; };
+		B697BE4D19A9C4130033D607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B697BE4C19A9C4130033D607 /* Foundation.framework */; };
+		B697BE4F19A9C4130033D607 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B697BE4E19A9C4130033D607 /* CoreGraphics.framework */; };
+		B697BE5119A9C4130033D607 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B697BE5019A9C4130033D607 /* UIKit.framework */; };
+		B697BE5719A9C4130033D607 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B697BE5519A9C4130033D607 /* InfoPlist.strings */; };
+		B697BE5919A9C4130033D607 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B697BE5819A9C4130033D607 /* main.m */; };
+		B697BE5D19A9C4130033D607 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B697BE5C19A9C4130033D607 /* AppDelegate.m */; };
+		B697BE6019A9C4130033D607 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B697BE5E19A9C4130033D607 /* Main_iPhone.storyboard */; };
+		B697BE6319A9C4130033D607 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B697BE6119A9C4130033D607 /* Main_iPad.storyboard */; };
+		B697BE6619A9C4130033D607 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B697BE6519A9C4130033D607 /* ViewController.m */; };
+		B697BE6819A9C4130033D607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B697BE6719A9C4130033D607 /* Images.xcassets */; };
+		B697BE6F19A9C4130033D607 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B697BE6E19A9C4130033D607 /* XCTest.framework */; };
+		B697BE7019A9C4130033D607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B697BE4C19A9C4130033D607 /* Foundation.framework */; };
+		B697BE7119A9C4130033D607 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B697BE5019A9C4130033D607 /* UIKit.framework */; };
+		B697BE7919A9C4130033D607 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B697BE7719A9C4130033D607 /* InfoPlist.strings */; };
+		B697BE7B19A9C4130033D607 /* Setopati_Nepal_NewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B697BE7A19A9C4130033D607 /* Setopati_Nepal_NewsTests.m */; };
+		B697BE8719A9C56B0033D607 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B697BE8419A9C56B0033D607 /* icon.png */; };
+		B697BE8B19A9C7630033D607 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B697BE8A19A9C7630033D607 /* libsqlite3.0.dylib */; };
+		B697BE8D19A9C76D0033D607 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B697BE8C19A9C76D0033D607 /* SystemConfiguration.framework */; };
+		B697BE8F19A9C7770033D607 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B697BE8E19A9C7770033D607 /* CFNetwork.framework */; };
+		B697BE9C19A9C8BD0033D607 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B697BE9319A9C8BD0033D607 /* Reachability.m */; };
+		B697BE9D19A9C8BD0033D607 /* DataBaseManger.m in Sources */ = {isa = PBXBuildFile; fileRef = B697BE9519A9C8BD0033D607 /* DataBaseManger.m */; };
+		B697BE9E19A9C8BD0033D607 /* DataBO.m in Sources */ = {isa = PBXBuildFile; fileRef = B697BE9719A9C8BD0033D607 /* DataBO.m */; };
+		B697BE9F19A9C8BD0033D607 /* DataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B697BE9919A9C8BD0033D607 /* DataParser.m */; };
+		B697BEA019A9C8BD0033D607 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B697BE9B19A9C8BD0033D607 /* NSDataAdditions.m */; };
+		B697BEA319A9C8F90033D607 /* Setopati.m in Sources */ = {isa = PBXBuildFile; fileRef = B697BEA219A9C8F90033D607 /* Setopati.m */; };
+		B697BEAA19A9C93C0033D607 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B697BEA819A9C93C0033D607 /* DetailsViewController.m */; };
+		B697BEAB19A9C93C0033D607 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B697BEA919A9C93C0033D607 /* DetailsViewController.xib */; };
+		B6D9B3B119AF061300800B8F /* I1.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D9B3AF19AF061300800B8F /* I1.png */; };
+		B6D9B3B419AF074000800B8F /* l2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D9B3B319AF074000800B8F /* l2.png */; };
+		B6D9B3B819AF345C00800B8F /* c1.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D9B3B719AF345C00800B8F /* c1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B697BE7219A9C4130033D607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B697BE4119A9C4130033D607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B697BE4819A9C4130033D607;
+			remoteInfo = "Setopati Nepal News";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B65E8FBE19B45F7400163710 /* HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUD.h; sourceTree = "<group>"; };
+		B65E8FBF19B45F7400163710 /* HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUD.m; sourceTree = "<group>"; };
+		B65E8FC419B47E4600163710 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B65E8FC519B47E4600163710 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B65E8FC719B48A1F00163710 /* NpPoliticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NpPoliticsViewController.h; sourceTree = "<group>"; };
+		B65E8FC819B48A1F00163710 /* NpPoliticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NpPoliticsViewController.m; sourceTree = "<group>"; };
+		B65E8FC919B48A1F00163710 /* NpPoliticsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NpPoliticsViewController.xib; sourceTree = "<group>"; };
+		B65E8FCC19B491BA00163710 /* NpSpecialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NpSpecialViewController.h; sourceTree = "<group>"; };
+		B65E8FCD19B491BA00163710 /* NpSpecialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NpSpecialViewController.m; sourceTree = "<group>"; };
+		B65E8FCE19B491BA00163710 /* NpSpecialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NpSpecialViewController.xib; sourceTree = "<group>"; };
+		B65E8FD119B491E100163710 /* NpOpinionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NpOpinionViewController.h; sourceTree = "<group>"; };
+		B65E8FD219B491E100163710 /* NpOpinionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NpOpinionViewController.m; sourceTree = "<group>"; };
+		B65E8FD319B491E100163710 /* NpOpinionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NpOpinionViewController.xib; sourceTree = "<group>"; };
+		B65E8FD619B491F900163710 /* NpBlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NpBlogViewController.h; sourceTree = "<group>"; };
+		B65E8FD719B491F900163710 /* NpBlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NpBlogViewController.m; sourceTree = "<group>"; };
+		B65E8FD819B491F900163710 /* NpBlogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NpBlogViewController.xib; sourceTree = "<group>"; };
+		B65E8FDB19B4920B00163710 /* NpLiteratureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NpLiteratureViewController.h; sourceTree = "<group>"; };
+		B65E8FDC19B4920B00163710 /* NpLiteratureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NpLiteratureViewController.m; sourceTree = "<group>"; };
+		B65E8FDD19B4920B00163710 /* NpLiteratureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NpLiteratureViewController.xib; sourceTree = "<group>"; };
+		B661FA6019B3110A00A418CB /* NpSocietyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NpSocietyViewController.h; sourceTree = "<group>"; };
+		B661FA6119B3110A00A418CB /* NpSocietyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NpSocietyViewController.m; sourceTree = "<group>"; };
+		B661FA6219B3110A00A418CB /* NpSocietyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NpSocietyViewController.xib; sourceTree = "<group>"; };
+		B661FA6819B3113600A418CB /* NpBusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NpBusinessViewController.h; sourceTree = "<group>"; };
+		B661FA6919B3113600A418CB /* NpBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NpBusinessViewController.m; sourceTree = "<group>"; };
+		B661FA6A19B3113600A418CB /* NpBusinessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NpBusinessViewController.xib; sourceTree = "<group>"; };
+		B661FA6D19B3114A00A418CB /* NpArtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NpArtViewController.h; sourceTree = "<group>"; };
+		B661FA6E19B3114A00A418CB /* NpArtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NpArtViewController.m; sourceTree = "<group>"; };
+		B661FA6F19B3114A00A418CB /* NpArtViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NpArtViewController.xib; sourceTree = "<group>"; };
+		B661FA7219B33BE000A418CB /* NpSortsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NpSortsViewController.h; sourceTree = "<group>"; };
+		B661FA7319B33BE000A418CB /* NpSortsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NpSortsViewController.m; sourceTree = "<group>"; };
+		B661FA7419B33BE000A418CB /* NpSortsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NpSortsViewController.xib; sourceTree = "<group>"; };
+		B661FA8919B356BA00A418CB /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		B661FA8A19B356BA00A418CB /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		B661FA8C19B387F900A418CB /* EnPoliticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnPoliticsViewController.h; sourceTree = "<group>"; };
+		B661FA8D19B387F900A418CB /* EnPoliticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnPoliticsViewController.m; sourceTree = "<group>"; };
+		B661FA8E19B387F900A418CB /* EnPoliticsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnPoliticsViewController.xib; sourceTree = "<group>"; };
+		B661FA9319B39DF800A418CB /* EnSocietyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnSocietyViewController.h; sourceTree = "<group>"; };
+		B661FA9419B39DF800A418CB /* EnSocietyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnSocietyViewController.m; sourceTree = "<group>"; };
+		B661FA9519B39DF800A418CB /* EnSocietyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnSocietyViewController.xib; sourceTree = "<group>"; };
+		B661FA9819B39E1600A418CB /* EnArtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnArtViewController.h; sourceTree = "<group>"; };
+		B661FA9919B39E1600A418CB /* EnArtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnArtViewController.m; sourceTree = "<group>"; };
+		B661FA9A19B39E1600A418CB /* EnArtViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnArtViewController.xib; sourceTree = "<group>"; };
+		B661FA9D19B39E3200A418CB /* EnSportsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnSportsViewController.h; sourceTree = "<group>"; };
+		B661FA9E19B39E3200A418CB /* EnSportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnSportsViewController.m; sourceTree = "<group>"; };
+		B661FA9F19B39E3200A418CB /* EnSportsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnSportsViewController.xib; sourceTree = "<group>"; };
+		B68537E619B5A212005DF29A /* EnSpecialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnSpecialViewController.h; sourceTree = "<group>"; };
+		B68537E719B5A212005DF29A /* EnSpecialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnSpecialViewController.m; sourceTree = "<group>"; };
+		B68537E819B5A212005DF29A /* EnSpecialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnSpecialViewController.xib; sourceTree = "<group>"; };
+		B68537EB19B5A225005DF29A /* EnOpinionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnOpinionViewController.h; sourceTree = "<group>"; };
+		B68537EC19B5A225005DF29A /* EnOpinionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnOpinionViewController.m; sourceTree = "<group>"; };
+		B68537ED19B5A226005DF29A /* EnOpinionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnOpinionViewController.xib; sourceTree = "<group>"; };
+		B68537F019B5A238005DF29A /* EnBlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnBlogViewController.h; sourceTree = "<group>"; };
+		B68537F119B5A238005DF29A /* EnBlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnBlogViewController.m; sourceTree = "<group>"; };
+		B68537F219B5A238005DF29A /* EnBlogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnBlogViewController.xib; sourceTree = "<group>"; };
+		B68537F519B5A271005DF29A /* ENAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENAudioViewController.h; sourceTree = "<group>"; };
+		B68537F619B5A271005DF29A /* ENAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENAudioViewController.m; sourceTree = "<group>"; };
+		B68537F719B5A271005DF29A /* ENAudioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ENAudioViewController.xib; sourceTree = "<group>"; };
+		B68537FA19B5A328005DF29A /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		B68537FB19B5A328005DF29A /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		B68537FC19B5A328005DF29A /* AboutUsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutUsViewController.xib; sourceTree = "<group>"; };
+		B685380319B5F774005DF29A /* Setopati.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Setopati.sqlite; sourceTree = "<group>"; };
+		B685380519B62B27005DF29A /* EnBusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnBusinessViewController.h; sourceTree = "<group>"; };
+		B685380619B62B27005DF29A /* EnBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnBusinessViewController.m; sourceTree = "<group>"; };
+		B685380719B62B27005DF29A /* EnBusinessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnBusinessViewController.xib; sourceTree = "<group>"; };
+		B697BE4919A9C4130033D607 /* Setopati Nepal News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Setopati Nepal News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B697BE4C19A9C4130033D607 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B697BE4E19A9C4130033D607 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B697BE5019A9C4130033D607 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B697BE5419A9C4130033D607 /* Setopati Nepal News-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Setopati Nepal News-Info.plist"; sourceTree = "<group>"; };
+		B697BE5619A9C4130033D607 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B697BE5819A9C4130033D607 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B697BE5A19A9C4130033D607 /* Setopati Nepal News-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Setopati Nepal News-Prefix.pch"; sourceTree = "<group>"; };
+		B697BE5B19A9C4130033D607 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B697BE5C19A9C4130033D607 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B697BE5F19A9C4130033D607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B697BE6219A9C4130033D607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B697BE6419A9C4130033D607 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B697BE6519A9C4130033D607 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B697BE6719A9C4130033D607 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B697BE6D19A9C4130033D607 /* Setopati Nepal NewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Setopati Nepal NewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B697BE6E19A9C4130033D607 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B697BE7619A9C4130033D607 /* Setopati Nepal NewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Setopati Nepal NewsTests-Info.plist"; sourceTree = "<group>"; };
+		B697BE7819A9C4130033D607 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B697BE7A19A9C4130033D607 /* Setopati_Nepal_NewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Setopati_Nepal_NewsTests.m; sourceTree = "<group>"; };
+		B697BE8419A9C56B0033D607 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B697BE8A19A9C7630033D607 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		B697BE8C19A9C76D0033D607 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B697BE8E19A9C7770033D607 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B697BE9219A9C8BD0033D607 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B697BE9319A9C8BD0033D607 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B697BE9419A9C8BD0033D607 /* DataBaseManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseManger.h; sourceTree = "<group>"; };
+		B697BE9519A9C8BD0033D607 /* DataBaseManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseManger.m; sourceTree = "<group>"; };
+		B697BE9619A9C8BD0033D607 /* DataBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBO.h; sourceTree = "<group>"; };
+		B697BE9719A9C8BD0033D607 /* DataBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBO.m; sourceTree = "<group>"; };
+		B697BE9819A9C8BD0033D607 /* DataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataParser.h; sourceTree = "<group>"; };
+		B697BE9919A9C8BD0033D607 /* DataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataParser.m; sourceTree = "<group>"; };
+		B697BE9A19A9C8BD0033D607 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		B697BE9B19A9C8BD0033D607 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		B697BEA119A9C8F90033D607 /* Setopati.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setopati.h; sourceTree = "<group>"; };
+		B697BEA219A9C8F90033D607 /* Setopati.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setopati.m; sourceTree = "<group>"; };
+		B697BEA719A9C93C0033D607 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		B697BEA819A9C93C0033D607 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		B697BEA919A9C93C0033D607 /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		B6D9B3AF19AF061300800B8F /* I1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I1.png; sourceTree = "<group>"; };
+		B6D9B3B319AF074000800B8F /* l2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l2.png; sourceTree = "<group>"; };
+		B6D9B3B719AF345C00800B8F /* c1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B697BE4619A9C4130033D607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B697BE8F19A9C7770033D607 /* CFNetwork.framework in Frameworks */,
+				B697BE8D19A9C76D0033D607 /* SystemConfiguration.framework in Frameworks */,
+				B697BE8B19A9C7630033D607 /* libsqlite3.0.dylib in Frameworks */,
+				B697BE4F19A9C4130033D607 /* CoreGraphics.framework in Frameworks */,
+				B697BE5119A9C4130033D607 /* UIKit.framework in Frameworks */,
+				B697BE4D19A9C4130033D607 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B697BE6A19A9C4130033D607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B697BE6F19A9C4130033D607 /* XCTest.framework in Frameworks */,
+				B697BE7119A9C4130033D607 /* UIKit.framework in Frameworks */,
+				B697BE7019A9C4130033D607 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B697BE4019A9C4130033D607 = {
+			isa = PBXGroup;
+			children = (
+				B685380319B5F774005DF29A /* Setopati.sqlite */,
+				B697BE5219A9C4130033D607 /* Setopati Nepal News */,
+				B697BE7419A9C4130033D607 /* Setopati Nepal NewsTests */,
+				B697BE4B19A9C4130033D607 /* Frameworks */,
+				B697BE4A19A9C4130033D607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B697BE4A19A9C4130033D607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B697BE4919A9C4130033D607 /* Setopati Nepal News.app */,
+				B697BE6D19A9C4130033D607 /* Setopati Nepal NewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B697BE4B19A9C4130033D607 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B697BE8E19A9C7770033D607 /* CFNetwork.framework */,
+				B697BE8C19A9C76D0033D607 /* SystemConfiguration.framework */,
+				B697BE8A19A9C7630033D607 /* libsqlite3.0.dylib */,
+				B697BE4C19A9C4130033D607 /* Foundation.framework */,
+				B697BE4E19A9C4130033D607 /* CoreGraphics.framework */,
+				B697BE5019A9C4130033D607 /* UIKit.framework */,
+				B697BE6E19A9C4130033D607 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B697BE5219A9C4130033D607 /* Setopati Nepal News */ = {
+			isa = PBXGroup;
+			children = (
+				B697BE5B19A9C4130033D607 /* AppDelegate.h */,
+				B697BE5C19A9C4130033D607 /* AppDelegate.m */,
+				B697BE5E19A9C4130033D607 /* Main_iPhone.storyboard */,
+				B697BE6119A9C4130033D607 /* Main_iPad.storyboard */,
+				B697BE6419A9C4130033D607 /* ViewController.h */,
+				B697BE6519A9C4130033D607 /* ViewController.m */,
+				B661FA8919B356BA00A418CB /* MenuViewController.h */,
+				B661FA8A19B356BA00A418CB /* MenuViewController.m */,
+				B65E8FC719B48A1F00163710 /* NpPoliticsViewController.h */,
+				B65E8FC819B48A1F00163710 /* NpPoliticsViewController.m */,
+				B65E8FC919B48A1F00163710 /* NpPoliticsViewController.xib */,
+				B661FA6019B3110A00A418CB /* NpSocietyViewController.h */,
+				B661FA6119B3110A00A418CB /* NpSocietyViewController.m */,
+				B661FA6219B3110A00A418CB /* NpSocietyViewController.xib */,
+				B661FA6819B3113600A418CB /* NpBusinessViewController.h */,
+				B661FA6919B3113600A418CB /* NpBusinessViewController.m */,
+				B661FA6A19B3113600A418CB /* NpBusinessViewController.xib */,
+				B661FA6D19B3114A00A418CB /* NpArtViewController.h */,
+				B661FA6E19B3114A00A418CB /* NpArtViewController.m */,
+				B661FA6F19B3114A00A418CB /* NpArtViewController.xib */,
+				B661FA7219B33BE000A418CB /* NpSortsViewController.h */,
+				B661FA7319B33BE000A418CB /* NpSortsViewController.m */,
+				B661FA7419B33BE000A418CB /* NpSortsViewController.xib */,
+				B65E8FCC19B491BA00163710 /* NpSpecialViewController.h */,
+				B65E8FCD19B491BA00163710 /* NpSpecialViewController.m */,
+				B65E8FCE19B491BA00163710 /* NpSpecialViewController.xib */,
+				B65E8FD119B491E100163710 /* NpOpinionViewController.h */,
+				B65E8FD219B491E100163710 /* NpOpinionViewController.m */,
+				B65E8FD319B491E100163710 /* NpOpinionViewController.xib */,
+				B65E8FD619B491F900163710 /* NpBlogViewController.h */,
+				B65E8FD719B491F900163710 /* NpBlogViewController.m */,
+				B65E8FD819B491F900163710 /* NpBlogViewController.xib */,
+				B65E8FDB19B4920B00163710 /* NpLiteratureViewController.h */,
+				B65E8FDC19B4920B00163710 /* NpLiteratureViewController.m */,
+				B65E8FDD19B4920B00163710 /* NpLiteratureViewController.xib */,
+				B697BEA719A9C93C0033D607 /* DetailsViewController.h */,
+				B697BEA819A9C93C0033D607 /* DetailsViewController.m */,
+				B697BEA919A9C93C0033D607 /* DetailsViewController.xib */,
+				B661FA8C19B387F900A418CB /* EnPoliticsViewController.h */,
+				B661FA8D19B387F900A418CB /* EnPoliticsViewController.m */,
+				B661FA8E19B387F900A418CB /* EnPoliticsViewController.xib */,
+				B661FA9319B39DF800A418CB /* EnSocietyViewController.h */,
+				B661FA9419B39DF800A418CB /* EnSocietyViewController.m */,
+				B661FA9519B39DF800A418CB /* EnSocietyViewController.xib */,
+				B685380519B62B27005DF29A /* EnBusinessViewController.h */,
+				B685380619B62B27005DF29A /* EnBusinessViewController.m */,
+				B685380719B62B27005DF29A /* EnBusinessViewController.xib */,
+				B661FA9819B39E1600A418CB /* EnArtViewController.h */,
+				B661FA9919B39E1600A418CB /* EnArtViewController.m */,
+				B661FA9A19B39E1600A418CB /* EnArtViewController.xib */,
+				B661FA9D19B39E3200A418CB /* EnSportsViewController.h */,
+				B661FA9E19B39E3200A418CB /* EnSportsViewController.m */,
+				B661FA9F19B39E3200A418CB /* EnSportsViewController.xib */,
+				B68537E619B5A212005DF29A /* EnSpecialViewController.h */,
+				B68537E719B5A212005DF29A /* EnSpecialViewController.m */,
+				B68537E819B5A212005DF29A /* EnSpecialViewController.xib */,
+				B68537EB19B5A225005DF29A /* EnOpinionViewController.h */,
+				B68537EC19B5A225005DF29A /* EnOpinionViewController.m */,
+				B68537ED19B5A226005DF29A /* EnOpinionViewController.xib */,
+				B68537F019B5A238005DF29A /* EnBlogViewController.h */,
+				B68537F119B5A238005DF29A /* EnBlogViewController.m */,
+				B68537F219B5A238005DF29A /* EnBlogViewController.xib */,
+				B68537F519B5A271005DF29A /* ENAudioViewController.h */,
+				B68537F619B5A271005DF29A /* ENAudioViewController.m */,
+				B68537F719B5A271005DF29A /* ENAudioViewController.xib */,
+				B68537FA19B5A328005DF29A /* AboutUsViewController.h */,
+				B68537FB19B5A328005DF29A /* AboutUsViewController.m */,
+				B68537FC19B5A328005DF29A /* AboutUsViewController.xib */,
+				B697BE6719A9C4130033D607 /* Images.xcassets */,
+				B697BE8419A9C56B0033D607 /* icon.png */,
+				B6D9B3AF19AF061300800B8F /* I1.png */,
+				B6D9B3B719AF345C00800B8F /* c1.png */,
+				B6D9B3B319AF074000800B8F /* l2.png */,
+				B697BE5319A9C4130033D607 /* Supporting Files */,
+			);
+			path = "Setopati Nepal News";
+			sourceTree = "<group>";
+		};
+		B697BE5319A9C4130033D607 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B697BEA119A9C8F90033D607 /* Setopati.h */,
+				B697BEA219A9C8F90033D607 /* Setopati.m */,
+				B697BE9219A9C8BD0033D607 /* Reachability.h */,
+				B697BE9319A9C8BD0033D607 /* Reachability.m */,
+				B697BE9419A9C8BD0033D607 /* DataBaseManger.h */,
+				B697BE9519A9C8BD0033D607 /* DataBaseManger.m */,
+				B697BE9619A9C8BD0033D607 /* DataBO.h */,
+				B697BE9719A9C8BD0033D607 /* DataBO.m */,
+				B697BE9819A9C8BD0033D607 /* DataParser.h */,
+				B697BE9919A9C8BD0033D607 /* DataParser.m */,
+				B697BE9A19A9C8BD0033D607 /* NSDataAdditions.h */,
+				B697BE9B19A9C8BD0033D607 /* NSDataAdditions.m */,
+				B65E8FBE19B45F7400163710 /* HUD.h */,
+				B65E8FBF19B45F7400163710 /* HUD.m */,
+				B65E8FC419B47E4600163710 /* MBProgressHUD.h */,
+				B65E8FC519B47E4600163710 /* MBProgressHUD.m */,
+				B697BE5419A9C4130033D607 /* Setopati Nepal News-Info.plist */,
+				B697BE5519A9C4130033D607 /* InfoPlist.strings */,
+				B697BE5819A9C4130033D607 /* main.m */,
+				B697BE5A19A9C4130033D607 /* Setopati Nepal News-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B697BE7419A9C4130033D607 /* Setopati Nepal NewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B697BE7A19A9C4130033D607 /* Setopati_Nepal_NewsTests.m */,
+				B697BE7519A9C4130033D607 /* Supporting Files */,
+			);
+			path = "Setopati Nepal NewsTests";
+			sourceTree = "<group>";
+		};
+		B697BE7519A9C4130033D607 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B697BE7619A9C4130033D607 /* Setopati Nepal NewsTests-Info.plist */,
+				B697BE7719A9C4130033D607 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B697BE4819A9C4130033D607 /* Setopati Nepal News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B697BE7E19A9C4130033D607 /* Build configuration list for PBXNativeTarget "Setopati Nepal News" */;
+			buildPhases = (
+				B697BE4519A9C4130033D607 /* Sources */,
+				B697BE4619A9C4130033D607 /* Frameworks */,
+				B697BE4719A9C4130033D607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Setopati Nepal News";
+			productName = "Setopati Nepal News";
+			productReference = B697BE4919A9C4130033D607 /* Setopati Nepal News.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B697BE6C19A9C4130033D607 /* Setopati Nepal NewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B697BE8119A9C4130033D607 /* Build configuration list for PBXNativeTarget "Setopati Nepal NewsTests" */;
+			buildPhases = (
+				B697BE6919A9C4130033D607 /* Sources */,
+				B697BE6A19A9C4130033D607 /* Frameworks */,
+				B697BE6B19A9C4130033D607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B697BE7319A9C4130033D607 /* PBXTargetDependency */,
+			);
+			name = "Setopati Nepal NewsTests";
+			productName = "Setopati Nepal NewsTests";
+			productReference = B697BE6D19A9C4130033D607 /* Setopati Nepal NewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B697BE4119A9C4130033D607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = infotradetech;
+				TargetAttributes = {
+					B697BE4819A9C4130033D607 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					B697BE6C19A9C4130033D607 = {
+						TestTargetID = B697BE4819A9C4130033D607;
+					};
+				};
+			};
+			buildConfigurationList = B697BE4419A9C4130033D607 /* Build configuration list for PBXProject "Setopati Nepal News" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B697BE4019A9C4130033D607;
+			productRefGroup = B697BE4A19A9C4130033D607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B697BE4819A9C4130033D607 /* Setopati Nepal News */,
+				B697BE6C19A9C4130033D607 /* Setopati Nepal NewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B697BE4719A9C4130033D607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D9B3B119AF061300800B8F /* I1.png in Resources */,
+				B65E8FCB19B48A1F00163710 /* NpPoliticsViewController.xib in Resources */,
+				B697BE6319A9C4130033D607 /* Main_iPad.storyboard in Resources */,
+				B65E8FDA19B491F900163710 /* NpBlogViewController.xib in Resources */,
+				B685380419B5F774005DF29A /* Setopati.sqlite in Resources */,
+				B661FA6419B3110A00A418CB /* NpSocietyViewController.xib in Resources */,
+				B661FAA119B39E3200A418CB /* EnSportsViewController.xib in Resources */,
+				B661FA7119B3114A00A418CB /* NpArtViewController.xib in Resources */,
+				B68537FE19B5A328005DF29A /* AboutUsViewController.xib in Resources */,
+				B65E8FDF19B4920B00163710 /* NpLiteratureViewController.xib in Resources */,
+				B661FA6C19B3113600A418CB /* NpBusinessViewController.xib in Resources */,
+				B697BE8719A9C56B0033D607 /* icon.png in Resources */,
+				B65E8FD519B491E100163710 /* NpOpinionViewController.xib in Resources */,
+				B697BE6819A9C4130033D607 /* Images.xcassets in Resources */,
+				B661FA9719B39DF800A418CB /* EnSocietyViewController.xib in Resources */,
+				B6D9B3B419AF074000800B8F /* l2.png in Resources */,
+				B68537EA19B5A212005DF29A /* EnSpecialViewController.xib in Resources */,
+				B697BE6019A9C4130033D607 /* Main_iPhone.storyboard in Resources */,
+				B661FA7619B33BE000A418CB /* NpSortsViewController.xib in Resources */,
+				B697BE5719A9C4130033D607 /* InfoPlist.strings in Resources */,
+				B6D9B3B819AF345C00800B8F /* c1.png in Resources */,
+				B661FA9019B387F900A418CB /* EnPoliticsViewController.xib in Resources */,
+				B685380919B62B27005DF29A /* EnBusinessViewController.xib in Resources */,
+				B68537F919B5A271005DF29A /* ENAudioViewController.xib in Resources */,
+				B697BEAB19A9C93C0033D607 /* DetailsViewController.xib in Resources */,
+				B661FA9C19B39E1600A418CB /* EnArtViewController.xib in Resources */,
+				B68537F419B5A238005DF29A /* EnBlogViewController.xib in Resources */,
+				B68537EF19B5A226005DF29A /* EnOpinionViewController.xib in Resources */,
+				B65E8FD019B491BA00163710 /* NpSpecialViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B697BE6B19A9C4130033D607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B697BE7919A9C4130033D607 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B697BE4519A9C4130033D607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B661FA6319B3110A00A418CB /* NpSocietyViewController.m in Sources */,
+				B661FAA019B39E3200A418CB /* EnSportsViewController.m in Sources */,
+				B661FA8B19B356BA00A418CB /* MenuViewController.m in Sources */,
+				B661FA7019B3114A00A418CB /* NpArtViewController.m in Sources */,
+				B661FA6B19B3113600A418CB /* NpBusinessViewController.m in Sources */,
+				B661FA8F19B387F900A418CB /* EnPoliticsViewController.m in Sources */,
+				B65E8FCA19B48A1F00163710 /* NpPoliticsViewController.m in Sources */,
+				B65E8FC219B45F7400163710 /* HUD.m in Sources */,
+				B68537FD19B5A328005DF29A /* AboutUsViewController.m in Sources */,
+				B697BE6619A9C4130033D607 /* ViewController.m in Sources */,
+				B65E8FD919B491F900163710 /* NpBlogViewController.m in Sources */,
+				B68537EE19B5A226005DF29A /* EnOpinionViewController.m in Sources */,
+				B697BE9D19A9C8BD0033D607 /* DataBaseManger.m in Sources */,
+				B697BEAA19A9C93C0033D607 /* DetailsViewController.m in Sources */,
+				B697BE5D19A9C4130033D607 /* AppDelegate.m in Sources */,
+				B661FA9619B39DF800A418CB /* EnSocietyViewController.m in Sources */,
+				B697BE9F19A9C8BD0033D607 /* DataParser.m in Sources */,
+				B697BE9C19A9C8BD0033D607 /* Reachability.m in Sources */,
+				B661FA9B19B39E1600A418CB /* EnArtViewController.m in Sources */,
+				B685380819B62B27005DF29A /* EnBusinessViewController.m in Sources */,
+				B68537F319B5A238005DF29A /* EnBlogViewController.m in Sources */,
+				B65E8FCF19B491BA00163710 /* NpSpecialViewController.m in Sources */,
+				B65E8FC619B47E4600163710 /* MBProgressHUD.m in Sources */,
+				B661FA7519B33BE000A418CB /* NpSortsViewController.m in Sources */,
+				B697BE9E19A9C8BD0033D607 /* DataBO.m in Sources */,
+				B697BEA319A9C8F90033D607 /* Setopati.m in Sources */,
+				B68537F819B5A271005DF29A /* ENAudioViewController.m in Sources */,
+				B65E8FD419B491E100163710 /* NpOpinionViewController.m in Sources */,
+				B65E8FDE19B4920B00163710 /* NpLiteratureViewController.m in Sources */,
+				B697BEA019A9C8BD0033D607 /* NSDataAdditions.m in Sources */,
+				B697BE5919A9C4130033D607 /* main.m in Sources */,
+				B68537E919B5A212005DF29A /* EnSpecialViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B697BE6919A9C4130033D607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B697BE7B19A9C4130033D607 /* Setopati_Nepal_NewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B697BE7319A9C4130033D607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B697BE4819A9C4130033D607 /* Setopati Nepal News */;
+			targetProxy = B697BE7219A9C4130033D607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B697BE5519A9C4130033D607 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B697BE5619A9C4130033D607 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B697BE5E19A9C4130033D607 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B697BE5F19A9C4130033D607 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B697BE6119A9C4130033D607 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B697BE6219A9C4130033D607 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B697BE7719A9C4130033D607 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B697BE7819A9C4130033D607 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B697BE7C19A9C4130033D607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B697BE7D19A9C4130033D607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B697BE7F19A9C4130033D607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Setopati Nepal News/Setopati Nepal News-Prefix.pch";
+				INFOPLIST_FILE = "Setopati Nepal News/Setopati Nepal News-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B697BE8019A9C4130033D607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Setopati Nepal News/Setopati Nepal News-Prefix.pch";
+				INFOPLIST_FILE = "Setopati Nepal News/Setopati Nepal News-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B697BE8219A9C4130033D607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Setopati Nepal News.app/Setopati Nepal News";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Setopati Nepal News/Setopati Nepal News-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Setopati Nepal NewsTests/Setopati Nepal NewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B697BE8319A9C4130033D607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Setopati Nepal News.app/Setopati Nepal News";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Setopati Nepal News/Setopati Nepal News-Prefix.pch";
+				INFOPLIST_FILE = "Setopati Nepal NewsTests/Setopati Nepal NewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B697BE4419A9C4130033D607 /* Build configuration list for PBXProject "Setopati Nepal News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B697BE7C19A9C4130033D607 /* Debug */,
+				B697BE7D19A9C4130033D607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B697BE7E19A9C4130033D607 /* Build configuration list for PBXNativeTarget "Setopati Nepal News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B697BE7F19A9C4130033D607 /* Debug */,
+				B697BE8019A9C4130033D607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B697BE8119A9C4130033D607 /* Build configuration list for PBXNativeTarget "Setopati Nepal NewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B697BE8219A9C4130033D607 /* Debug */,
+				B697BE8319A9C4130033D607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B697BE4119A9C4130033D607 /* Project object */;
+}
